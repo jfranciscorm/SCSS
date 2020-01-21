@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+
+/*
+h1: selector de etiqueta 
+*/ 
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: darkgrey;
+    position: relative;
+}
+
+#Titulo{
+    text-align: center;
+    color: blue;
+    background: #000;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    position: absolute;
+    width: 100%;
+    bottom: 50%;
+    transform: translateY(50%);
+}
+
+//Inician los estilos de los articulos
+#DivisionArticulos{
+    background: yellow;
+    width: 75%;
+    height: 90vh;
+    margin: 5px 5px;
+    float: left;
+    
+}
+
+article{
+    background: pink;
+    margin-top: 10px;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.parrafoArticulo{
+    text-align: justify;
+    padding: 20px 10px;
+    border: 2px dotted green;
+    font-family: 'Kaushan Script', cursive;
+}
+
+aside{
+    background: thistle;
+    width: 24%;
+    height: 90vh;
+    padding: 0px 0px;
+    margin-top: 5px;
+    float: left;
+    
+}
+
+img{
+    width: 20vw;
+    height: 25vh;
+    
+}
+
+.publicidad{
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+footer{
+    background: dodgerblue;
+    clear: both;
+    color: gainsboro;
+    height: 8vh;
+    text-align: center;
+}

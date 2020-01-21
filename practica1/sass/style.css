@@ -1,0 +1,19 @@
+/*
+h1: selector de etiqueta 
+*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background: darkgrey;
+}
+
+#Titulo {
+  text-align: center;
+  color: blue;
+}
+/*# sourceMappingURL=style.css.map */
