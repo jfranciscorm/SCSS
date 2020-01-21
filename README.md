@@ -1,2 +1,2 @@
 # Hojas de estilo
-## Practicas pagibnas web con sass
+## Práctcas Páginas Web con Sass
