@@ -1,17 +1,104 @@
-/* Error: expected "}".
- *     ,
- * 106 | }
- *     |  ^
- *     '
- *   sass\style.scss 106:2  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "}".\a     \2577 \a 106 \2502  }\a     \2502   ^\a     \2575 \a   sass\\style.scss 106:2  root stylesheet';
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Rubik+Mono+One|Shadows+Into+Light&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
 }
+
+header {
+  width: 100%;
+  height: 12vh;
+  background: lavender;
+  border: black;
+}
+
+#Titulo {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 40px;
+  padding: 12px 80px;
+}
+
+#Mente {
+  font-family: "Rubik Mono One", sans-serif;
+  font-size: 25px;
+  color: limegreen;
+  font-weight: bolder;
+}
+
+#DivisionArticulos {
+  background: limegreen;
+  width: 75%;
+  height: 86vh;
+  margin: 3px 2px;
+  float: left;
+}
+
+.ArticlesTop {
+  margin-top: 10px;
+  padding: 10px 10px;
+  width: 45%;
+  text-align: justify;
+  color: white;
+  float: left;
+}
+
+.ArticlesTop2 {
+  margin-top: 10px;
+  padding: 10px 10px;
+  width: 45%;
+  height: 80%;
+  text-align: justify;
+  color: white;
+  float: right;
+}
+
+.ArticleBottom {
+  float: left;
+  text-align: justify;
+  width: 30%;
+  color: white;
+  padding: 10px 15px;
+}
+
+#Div2Articulos {
+  width: 100%;
+  height: 30%;
+}
+
+img {
+  width: 49vw;
+  height: 55vh;
+  float: rigth;
+}
+
+aside {
+  width: 24%;
+  float: right;
+  height: 75vh;
+  margin: 3px 3px;
+}
+
+#verde {
+  background: limegreen;
+  width: 100vw;
+  height: 20vh;
+}
+
+#gris {
+  width: 100vw;
+  height: 40vh;
+  background: lavender;
+}
+
+#parrafoejem {
+  text-align: center;
+  font-family: "Bevan", cursive;
+  font-size: 20px;
+}
+
+#cajasabajo {
+  width: 100%;
+  height: 70%;
+}
+
+/*# sourceMappingURL=style.css.map */
