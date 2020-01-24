@@ -1,0 +1,80 @@
+.pelota {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: red;
+  animation-name: example;
+  top: 86%;
+  left: 0;
+  animation-duration: 5s;
+}
+
+#cuadro {
+  width: 90%;
+  height: 90vh;
+  background: green;
+  margin: 35px 50px;
+}
+
+@keyframes example {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 86%;
+  }
+  15% {
+    background-color: blue;
+    left: 10%;
+    top: 0%;
+  }
+  30% {
+    background-color: yellow;
+    left: 20%;
+    top: 86%;
+  }
+  45% {
+    background-color: black;
+    left: 30%;
+    top: 20%;
+  }
+  50% {
+    background-color: blueviolet;
+    left: 40%;
+    top: 86%;
+  }
+  55% {
+    background-color: cadetblue;
+    left: 50%;
+    top: 30%;
+  }
+  60% {
+    background-color: coral;
+    left: 60%;
+    top: 86%;
+  }
+  65% {
+    background-color: cadetblue;
+    left: 70%;
+    top: 40%;
+  }
+  70% {
+    background-color: chocolate;
+    left: 80%;
+    top: 86%;
+  }
+  75% {
+    background-color: chartreuse;
+    left: 90%;
+    top: 50%;
+  }
+  80% {
+    background-color: cornflowerblue;
+    left: 100%;
+    top: 86%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
